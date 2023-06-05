@@ -1,0 +1,158 @@
+/* Styles for the overall component */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1DA1F2;
+    color: white;
+    width: 100%;
+}
+
+.tweet-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.initials {
+    background-color: #555;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.fullname {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tweet-content {
+    margin-top: 5px;
+}
+
+.tweet-text {
+    font-size: 14px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.twitter-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #1DA1F2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.tweet-form {
+    width: 50%;
+    max-width: 500px; /* Modify this value according to your requirements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #0d8ed5;
+}
+
+.tweets-display {
+    width: 50%;
+    max-width: 500px; /* Modify this value according to your requirements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tweet-card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #1DA1F2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tweet-card > div {
+    margin-bottom: 10px;
+}

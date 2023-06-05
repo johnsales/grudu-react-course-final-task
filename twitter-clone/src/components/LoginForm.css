@@ -1,0 +1,57 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    padding: 20px;
+    border-radius: 50px; /* Gives the form rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    height: auto; /* height auto will adjust the height to fit the content */
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: darkgrey;
+}
+
+.signup-text {
+    margin-top: 20px;
+    color: grey;
+}
+
+.signup-text a {
+    color: blue;
+    text-decoration: none;
+}
